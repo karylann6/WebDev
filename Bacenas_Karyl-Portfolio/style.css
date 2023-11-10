@@ -1,0 +1,122 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+.hero {
+	height: 100vh;
+	width: 100%;
+	background-image: url(https://img.freepik.com/premium-photo/network-connection-concept-black-background-illustration-futuristic-hexagon-perspective-wide-angle-lanscape-futuristic-honeycomb-concept-3d-landscape-big-data-digital-background_518816-590.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+nav {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+p {
+	border: 5px solid #ffff;
+	color: #ffff;
+	padding: 5%;
+	font-weight: bold;
+	text-align: left;
+	font-size: 20px;
+}
+.logo {
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+}
+
+span {
+	color: gray;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+nav ul li a {
+	color: #ffff;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+}
+
+h1 {
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+
+h3 {
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+h4 {
+	color: white;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+
+
+img {
+	height: 80px;
+}
+
+.socialMedia{
+	background-color: #ffff;
+	border-radius: 54px;
+}
+
+a:visited {
+	color: #ffff;
+}
+
+.content-2 {
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+}
+
+.content-2 div{
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.content div a{
+	color: #ffff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.content{
+	display: grid;
+	grid-template-columns: auto 20%;
+	align-items: center;
+}
+
+.pfp{
+	margin-left: 300px;
+	height: 30%;
+	border-radius: 15%;
+}
